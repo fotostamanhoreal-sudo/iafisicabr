@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iafisicabr.com.br</title>
+<style>
+:root{--bg:#f7f8fa;--ink:#14202b;--muted:#5b6772;--accent:#0f6b6b;--card:#ffffff;--line:#e3e7ec;--radius:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:18px}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+header{padding:18px 0;border-bottom:1px solid var(--line);background:#fff}
+.hero{padding:72px 0 56px}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.15;margin-bottom:18px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:15px 26px;border-radius:999px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin:14px 0}
+form{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+input{flex:1 1 220px;padding:14px 16px;border:1px solid #c9d1da;border-radius:10px}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:28px 0;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><b>iafisicabr</b></div></header>
+<main class="wrap">
+<section class="hero">
+<h1>IA e Física no Brasil</h1>
+<p>Conteúdo sobre inteligência artificial aplicada à física e ciência no contexto brasileiro.</p>
+<a class="btn" href="#captura">Receber conteúdos</a>
+</section>
+<section id="captura" class="card">
+<h3>Receba atualizações sobre IA e Física</h3>
+<form action="https://formspree.io/f/mnpprlpo" method="POST">
+<input type="text" name="name" placeholder="Nome" required>
+<input type="email" name="email" placeholder="E-mail" required>
+<input type="hidden" name="origem" value="iafisicabr.com.br">
+<button class="btn" type="submit">Quero receber</button>
+</form>
+</section>
+</main>
+<footer><div class="wrap"><p>Criado por GUILHERME MORAIS DO NASCIMENTO, EMAIL: GUILHERMENASCIMENTO867@GMAIL.COM</p></div></footer>
+</body>
+</html>
